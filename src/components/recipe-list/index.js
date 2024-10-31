@@ -29,6 +29,11 @@ export default function RecipeList({ recipeList }) {
                           <p className="text-lg text-gray-600 ">
                             Rating: {recipe.rating}
                           </p>
+                          <div className="ml-auto">
+                            <p className="text-lg text-gray-600 font-bold ">
+                              {recipe.cuisine}
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </CardContent>
